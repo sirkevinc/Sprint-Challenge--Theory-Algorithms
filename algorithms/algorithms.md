@@ -36,3 +36,7 @@ const maximumValue = (array) => {
 
 - b. Starting at the middle level of the building, and continuing to move up or down by half the levels until an egg breaks or doesn't break will allow you to determine the value of `f` while minimizing the amount of eggs that are dropped.
 
+## Exercise III
+- a. The running time of this algorithm on an input array that is already sorted will be O(n^2) because the algorithm will keep calling itself after the first for each.
+
+- b. The running time if the median is always chosen will be O(n log n) because the median allows us to divide the array up in half perfectly each time.
