@@ -34,4 +34,5 @@ const maximumValue = (array) => {
 }
 ```
 
-- b. Starting at the lowest possible floor and moving up until finally an egg breaks would allow you to determine the value of `f` while only losing one egg.
+- b. Starting at the middle level of the building, and continuing to move down by half the levels until an egg breaks will allow you to determine the value of `f` while minimizing the amount of eggs that are dropped.
+
